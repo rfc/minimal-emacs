@@ -62,8 +62,8 @@
 (global-set-key [8]  'delete-backward-char)     ; C-h backspace
 (global-set-key (kbd "<f5>") 'whitespace-mode)
 (global-set-key (kbd "<f6>") 'linum-mode)
-(global-set-key (kbd "<f11>") 'cycle-buffer)
-(global-set-key (kbd "<f12>") 'cycle-buffer-backward)
+(global-set-key (kbd "<f11>") 'previous-buffer)
+(global-set-key (kbd "<f12>") 'next-buffer)
 
 ;; Modes
 ;;
