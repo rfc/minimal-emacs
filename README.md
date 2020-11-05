@@ -13,4 +13,6 @@ Add to your .bashrc
 	F6 - toggle line numbers
 	F11 - cycle buffer forward
 	F12 - cycle buffer backward
+	M-<space> - open shell
+	M-0~9 - switch windows
 ```
