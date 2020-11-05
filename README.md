@@ -5,4 +5,12 @@ A minimal emacs config
 
 Add to your .bashrc
 
-`export TERM="xterm-256color"`
+> `export TERM="xterm-256color"`
+
+## Custom Keybinding
+```
+	F5 - toggle whitespace
+	F6 - toggle line numbers
+	F11 - cycle buffer forward
+	F12 - cycle buffer backward
+```
