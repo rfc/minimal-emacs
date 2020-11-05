@@ -54,6 +54,8 @@
   (require 'use-package))
 
 (use-package zenburn-theme :ensure t)
+(use-package multishell :ensure t)
+(use-package window-numbering :ensure t)
 (use-package yaml-mode :ensure t)
 
 ;; Keybindings
@@ -64,6 +66,7 @@
 (global-set-key (kbd "<f6>") 'linum-mode)
 (global-set-key (kbd "<f11>") 'previous-buffer)
 (global-set-key (kbd "<f12>") 'next-buffer)
+(global-set-key "\M- " 'multishell-pop-to-shell)
 
 ;; Modes
 ;;
